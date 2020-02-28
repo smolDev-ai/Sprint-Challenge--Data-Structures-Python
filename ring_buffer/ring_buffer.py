@@ -1,5 +1,13 @@
 from doubly_linked_list import DoublyLinkedList
 
+# Ring buffer is a FIFO data structure. Meaning that as
+# data moves through it, it starts at the head and moves towards a tail.
+# once it reaches the tail new data overwrites the old data.
+# since the DLL was given to us, use that functionality.
+# using a DLL makes it somewhat similar to an LRU cache.
+# In reality you would probably have to create a circular linked list.
+# our implementation doesn't need to do that, though. Thankfully.
+
 
 class RingBuffer:
     def __init__(self, capacity):

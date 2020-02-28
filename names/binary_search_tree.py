@@ -1,7 +1,7 @@
-import sys
-sys.path.append('../queue_and_stack')
-from dll_queue import Queue
-from dll_stack import Stack
+# import sys
+# sys.path.append('../queue_and_stack')
+# from dll_queue import Queue
+# from dll_stack import Stack
 
 
 class BinarySearchTree:
@@ -164,10 +164,10 @@ class BinarySearchTree:
         print(self.value)
 
 
-new_tree = BinarySearchTree(5)
-new_tree.insert(10)
-new_tree.insert(4)
-new_tree.insert(1)
-new_tree.insert(9)
-new_tree.insert(80)
-new_tree.in_order_print(new_tree)
+# new_tree = BinarySearchTree(5)
+# new_tree.insert(10)
+# new_tree.insert(4)
+# new_tree.insert(1)
+# new_tree.insert(9)
+# new_tree.insert(80)
+# new_tree.in_order_print(new_tree)
